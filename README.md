@@ -38,4 +38,4 @@ Now when we save our model we get data like this:
 
 ## Todo
 
-* Add in tests
+* Make tests not depend on having a mongo instance setup
