@@ -19,4 +19,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'activesupport', '~> 3.0.0'
+  s.add_dependency 'mongo_mapper'
+
+  s.add_development_dependency 'rspec', '~> 2.6.0'
+  s.add_development_dependency 'simplecov'
 end

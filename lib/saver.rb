@@ -1,4 +1,5 @@
 require "saver/version"
+require "active_support"
 
 module Saver
   extend ActiveSupport::Concern
