@@ -1,5 +1,7 @@
 # Saver
 
+[![Build Status](http://travis-ci.org/[Kelsin]/[saver].png)](http://travis-ci.org/[Kelsin]/[saver])
+
 This gem lets you easily add text columns to your mongo mapper (only for now)
 models. We use this gem to save logging information for one of our web apps. In
 the future if the associations break, you'll still have a text version of the
