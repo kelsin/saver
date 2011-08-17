@@ -37,7 +37,3 @@ Now when we save our model we get data like this:
       :card_id => 2,
       :card_saver => 'Card 45 with $50.00 on it'
     }
-
-## Todo
-
-* Make tests not depend on having a mongo instance setup
