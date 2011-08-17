@@ -10,6 +10,12 @@ module Saver
   end
 
   module ClassMethods
+    def save_attributes(*attributes)
+      attributes.each do |attr|
+        save_attribute(attr)
+      end
+    end
+
     def save_attribute(attribute, options = {})
       key "#{attribute}_saver", String
       @savers[attribute] = options[:method] || :to_s
