@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Saver::VERSION
   s.authors     = ["Christopher Giroir"]
   s.email       = ["kelsin@valefor.com"]
-  s.homepage    = "https://github.com/Kelsin/saver"
+  s.homepage    = "http://kelsin.github.com/saver/"
   s.summary     = %q{Save a string version of columns automatically}
   s.description = %q{Save a string version of columns automatically}
 
