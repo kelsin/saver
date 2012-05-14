@@ -25,11 +25,9 @@ module Saver
     end
   end
 
-  module InstanceMethods
-    def save_savers
-      self.class.savers.each do |attribute, method|
-        self.send("#{attribute}_saver=", self.send(attribute).send(method))
-      end
+  def save_savers
+    self.class.savers.each do |attribute, method|
+      self.send("#{attribute}_saver=", self.send(attribute).send(method))
     end
   end
 end
